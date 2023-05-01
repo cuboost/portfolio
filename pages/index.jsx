@@ -1,5 +1,5 @@
 import Summary from '@/components/Summary';
-import Intro from '@/components/intro';
+import Intro from '@/components/Intro';
 
 export default function Home() {
 
