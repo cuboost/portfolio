@@ -10,7 +10,7 @@ const NotFound = () => {
         setTimeout(() => {
             router.push("/");
         }, 10000);
-    }, []);
+    }, [router]);
 
     return (
         <div className="flex flex-col items-center justify-start text-center">

@@ -115,7 +115,7 @@ const Tools = () => {
                 </a>
             </div>
 
-            <h2 className=" text-4xl p-6 pt-20"><span className="text-teal-600">OS's</span> I Use</h2>
+            <h2 className=" text-4xl p-6 pt-20"><span className="text-teal-600">OS&apos;s</span> I Use</h2>
             <div className="inline-grid grid-cols-2 gap-4 w-10/12 md:grid-cols-3 lg:grid-cols-4 cursor-pointer">
                 <a className="flex flex-col justify-center items-center transition duration-500 ease-in-out text-teal-600 border-4 border-teal-600 text-center rounded-3xl hover:bg-teal-600 hover:text-white" href="https://www.apple.com/mac/" target={"_blank"}>
                     <SiMacos className="text-6xl m-5 mb-0" />
