@@ -4,7 +4,7 @@
 <h1 align="center">Portfolio</h1>
 <p align="center">This is my portfolio!</p>
 
-I used Next.js to create this app. Then, I used Vercel to deploy it.
+I used Next.js to create this app. Then, I used Vercel to deploy it. I also used Tailwind CSS for the styling and Firebase for the server.
 
 It is currently under development...
 
