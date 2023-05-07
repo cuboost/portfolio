@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
                 {/* Favicon */}
                 <link rel="icon" href="/images/icons/favicon.ico" />
             </Head>
-            <main className=" m-auto w-10/12 md:w-9/12 lg:w-8/12">
+            <main className=" m-auto w-10/12 md:w-9/12 lg:w-8/12 min-h-screen">
                 <Navbar />
                 {children}
                 <Footer />

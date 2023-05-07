@@ -1,6 +1,5 @@
 import Image from 'next/image';
-import { AiFillGithub } from "react-icons/ai";
-import { CgWebsite } from "react-icons/cg";
+import { SiGithub, SiReplit } from "react-icons/si";
 import cuboost from "../public/images/cuboost.png";
 
 export default function Summary() {
@@ -11,17 +10,17 @@ export default function Summary() {
             </div>
             <div className=' text-center p-5'>
                 <h2 className=' text-5xl py-2 text-teal-600 font-medium'>CUBOOST</h2>
-                <h3 className=' text-2xl py-2'>Web and Game Developer</h3>
-                <p className=' text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-slate-300'>
-                    👋 Hi, I&apos;m the creator of Cuboost. I work alone to create simple things that can help us in our everyday life. My initial <a className=' text-teal-500' href="https://cuboost-website.web.app/">website</a> with my first creations.
+                <h3 className=' text-2xl py-2'>Front-end Developer</h3>
+                <p className=' text-lg py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-slate-300'>
+                    👋 Hi, I&apos;m the creator of <span className=' text-teal-500'>Cuboost</span>. I work alone to create simple things that can help us in our everyday life. I am a self-taught <span className=' text-teal-500'>front-end</span> developer, and I mainly work with React. Web developing is really my thing, even thought I also do a little bit of <span className=' text-teal-500'>game development</span> and <span className=' text-teal-500'>app development</span>...
                 </p>
             </div>
-            <div className='text-5xl flex justify-center gap-16 pb-10 text-gray-600'>
+            <div className='text-5xl flex justify-center gap-16 pb-10 text-gray-600 dark:text-slate-200'>
                 <a href="https://github.com/cuboost" target={'_blank'} className="transition duration-500 ease-in-out hover:text-teal-500">
-                    <AiFillGithub />
+                    <SiGithub />
                 </a>
-                <a href="https://cuboost-website.web.app/" target={'_blank'} className="transition duration-500 ease-in-out hover:text-teal-500">
-                    <CgWebsite />
+                <a href="https://replit.com/@Cuboost" target={'_blank'} className="transition duration-500 ease-in-out hover:text-teal-500">
+                    <SiReplit />
                 </a>
             </div>
         </section>
