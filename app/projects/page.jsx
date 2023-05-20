@@ -1,7 +1,7 @@
-import ProjectTile from "@/components/ProjectTile";
-import cuboostProjects from "../public/images/projects.svg";
+import ProjectTile from "../ProjectTile";
+import cuboostProjects from "/public/images/projects.svg";
 import Image from 'next/image';
-import PlatformIcons from "@/components/PlatformIcons";
+import PlatformIcons from "../PlatformIcons";
 
 export default function Projects() {
 

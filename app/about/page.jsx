@@ -1,6 +1,6 @@
-import Stats from '@/components/about/Stats';
-import Tools from '@/components/about/Tools';
-import cuboostAbout from "../public/images/about.svg";
+import Stats from './Stats';
+import Tools from './Tools';
+import cuboostAbout from "/public/images/about.svg";
 import Image from 'next/image';
 
 export default function About() {
