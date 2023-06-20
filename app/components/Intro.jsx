@@ -1,12 +1,11 @@
 import Image from "next/image";
-import { SiGithub, SiReplit } from "react-icons/si";
-import cuboost from "../public/images/cuboost.png";
+import cuboost from "public/images/cuboost.png";
 import PlatformIcons from "./PlatformIcons";
 
 export default function Summary() {
   return (
     <section className="relative">
-      <div className=" relative mx-auto bg-gradient-to-tr from-teal-500 rounded-full w-60 h-60 mb-5 p-6 select-none md:h-72 md:w-72">
+      <div className=" relative mx-auto bg-gradient-to-tr from-teal-500 rounded-full w-60 h-60 mb-5 mt-10 p-6 select-none md:h-72 md:w-72">
         <Image src={cuboost} draggable="false" alt="Cuboost Icon" priority />
       </div>
       <div className=" text-center p-5">
@@ -23,7 +22,7 @@ export default function Summary() {
           <span className=" text-teal-500">app development</span>...
         </p>
       </div>
-      <PlatformIcons size="text-5xl" />
+      <PlatformIcons size="text-4xl" />
     </section>
   );
 }

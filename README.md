@@ -6,7 +6,7 @@
 
 ## Info
 
-This is my portfolio: it hosts some of my projects and gives you an idea of who I am.
+This is my portfolio: it hosts some of my projects and gives you an idea of who I am as a developer.
 
 ## Technology
 
@@ -14,7 +14,7 @@ This is a [Next.js](https://nextjs.org/) web app. It uses [Tailwind CSS](https:/
 
 ## Version
 
-This project is currently under development... The full version 1 will come out in June.
+This project is currently under development... The full version 1 will come out end of July.
 
 ## Todo List
 
@@ -24,4 +24,4 @@ Here are some things I am planning on making:
 
 ## Publish Information
 
-This project was first published in late April. (I don't know the exact date...)
+This project was first published on April 30, 2023.

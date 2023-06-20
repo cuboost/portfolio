@@ -8,14 +8,14 @@ export default function PlatformIcons({ size }) {
       <a
         href="https://github.com/cuboost"
         target={"_blank"}
-        className="transition duration-500 ease-in-out hover:text-teal-500 cursor-pointer"
+        className="platform-icon"
       >
         <SiGithub />
       </a>
       <a
         href="https://replit.com/@Cuboost"
         target={"_blank"}
-        className="transition duration-500 ease-in-out hover:text-teal-500 cursor-pointer"
+        className="platform-icon"
       >
         <SiReplit />
       </a>

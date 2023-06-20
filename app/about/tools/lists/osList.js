@@ -15,7 +15,7 @@ export const osList = [
   },
   {
     id: 3,
-    name: "Android",
+    name: "iOS",
     icon: <SiIos />,
     link: "https://www.apple.com/ios",
   },

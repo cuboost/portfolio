@@ -1,4 +1,4 @@
-import Stats from "./GithubStats";
+import Stats from "./stats/GithubStats";
 import Tools from "./tools/Tools";
 import cuboostAbout from "/public/images/about.svg";
 import Image from "next/image";
@@ -17,6 +17,7 @@ export default function About() {
             alt="Image of Cuboost coding"
             className=" w-3/4 select-none m-2 mx-auto sm:w-1/2 lg:w-2/5"
             draggable="false"
+            priority
           />
           <p className="text-lg p-5 px-8 leading-8 text-gray-800 dark:text-slate-300">
             I love coding. I am always excited to start new projects, however, I

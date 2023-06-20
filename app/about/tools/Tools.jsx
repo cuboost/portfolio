@@ -7,6 +7,7 @@ import { toolsList } from "./lists/toolsList";
 import { idesList } from "./lists/idesList";
 import { browsersList } from "./lists/browsersList";
 import { osList } from "./lists/osList";
+import LanguageStats from "../stats/LanguageStats";
 
 export default function Tools() {
   return (
@@ -14,26 +15,7 @@ export default function Tools() {
       <h2 className="pt-20">
         <span className="text-teal-600">Languages</span> I Use
       </h2>
-      <picture className="flex justify-center mb-10">
-        <source
-          srcSet={
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=cuboost&theme=dark&text_color=0d9489&hide_border=true&border_radius=20&layout=compact"
-          }
-          media="(prefers-color-scheme: dark)"
-        />
-        <Image
-          src={
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=cuboost&text_color=0d9489&hide_border=true&border_radius=20&title_color=0c857b&layout=compact"
-          }
-          alt="Github Stats"
-          width={449}
-          height={193}
-          loading="eager"
-          draggable="false"
-          priority
-          className=" border-4 border-teal-600 rounded-3xl w-4/6 md:w-3/6 xl:w-5/12"
-        />
-      </picture>
+      <LanguageStats />
       <Grid>
         {languagesList.map((language) => (
           <ToolCard
