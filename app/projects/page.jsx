@@ -35,8 +35,9 @@ export default function Projects() {
             key={project.id}
             link={project.link}
             title={project.name}
-            description={project.descrition}
+            overview={project.overview}
             logo={project.logo}
+            id={project.id}
           />
         ))}
       </div>

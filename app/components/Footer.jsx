@@ -1,4 +1,3 @@
-import { SiGithub, SiReplit } from "react-icons/si";
 import PlatformIcons from "./PlatformIcons";
 
 export default function Footer() {

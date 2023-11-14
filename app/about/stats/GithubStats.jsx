@@ -20,7 +20,7 @@ export default function Stats() {
             height={193}
             draggable="false"
             priority
-            className=" border-4 border-teal-600 rounded-3xl w-5/6 md:w-4/6 xl:w-7/12"
+            className=" border-4 border-teal-600 rounded-3xl w-5/6 sm:w-4/6 xl:w-7/12 max-w-lg"
           />
         </picture>
       </a>

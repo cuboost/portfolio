@@ -18,7 +18,7 @@ export default function LanguageStats() {
         height={193}
         draggable="false"
         priority
-        className=" border-4 border-teal-600 rounded-3xl w-4/6 md:w-3/6 xl:w-3/5 mb-4"
+        className=" border-4 border-teal-600 rounded-3xl w-5/6 sm:w-4/6 md:w-3/6 max-w-md mb-4"
       />
     </picture>
   );

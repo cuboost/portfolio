@@ -3,10 +3,10 @@ import Grid from "./Grid";
 import ToolCard from "./ToolCard";
 import { frameworksAndLibrariesList } from "./lists/frameworks-and-libraries-list";
 import { languagesList } from "./lists/languages-list";
-import { toolsList } from "./lists/toolsList";
-import { idesList } from "./lists/idesList";
-import { browsersList } from "./lists/browsersList";
-import { osList } from "./lists/osList";
+import { toolsList } from "./lists/tools-list";
+import { idesList } from "./lists/ides-list";
+import { browsersList } from "./lists/browsers-list";
+import { osList } from "./lists/os-list";
 import LanguageStats from "../stats/LanguageStats";
 
 export default function Tools() {
