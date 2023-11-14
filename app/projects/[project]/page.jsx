@@ -14,7 +14,7 @@ export default function Project({ params }) {
       <h1>{projectInfo.name}</h1>
       <h4 className=" text-center py-2">{projectInfo.overview}</h4>
       <div className="flex justify-center my-5">
-        <a href={projectInfo.link} target="_blank">
+        <a href={projectInfo.link} target="_blank" rel="noopener noreferrer">
           <BsBoxArrowUpRight className=" text-2xl" />
         </a>
       </div>

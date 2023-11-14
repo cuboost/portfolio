@@ -18,6 +18,7 @@ export default function PlatformIcons({ size }) {
           key={icon.id}
           target={"_blank"}
           className="platform-icon"
+          rel="noopener noreferrer"
         >
           {icon.icon}
         </a>

@@ -3,7 +3,11 @@ import Image from "next/image";
 export default function Stats() {
   return (
     <div>
-      <a href="https://github.com/cuboost" target="blank">
+      <a
+        href="https://github.com/cuboost"
+        target="blank"
+        rel="noopener noreferrer"
+      >
         <picture className="flex justify-center mb-5 select-none">
           <source
             srcSet={
